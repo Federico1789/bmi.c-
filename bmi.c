@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main(void) {
 	float peso, altura, imc;
 	
@@ -12,7 +13,7 @@ int main(void) {
 	
 	printf("Su índice de masa corporal es: %.2f\n", imc);
 	
-	printf("Índice        | Condición\n");
+	printf(" inidce       | condicones\n");
 	printf("-----------------------------\n");
 	printf("<18.5         | Bajo peso\n");
 	printf("18.5 a 24.9   | Normal\n");
@@ -20,4 +21,4 @@ int main(void) {
 	printf(">=30          | Obesidad\n");
 	
 	return 0;
- }
+}
